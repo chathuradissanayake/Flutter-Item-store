@@ -69,7 +69,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '1022400325537',
     projectId: 'task-v2',
     storageBucket: 'task-v2.appspot.com',
-    iosClientId: '1022400325537-03rt5lakba2s4jur63vj5uhm6nu01bht.apps.googleusercontent.com',
+    iosClientId:
+        '1022400325537-03rt5lakba2s4jur63vj5uhm6nu01bht.apps.googleusercontent.com',
     iosBundleId: 'com.example.myTaskV2',
   );
 }
