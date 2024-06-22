@@ -38,7 +38,7 @@ class _HomeState extends State<SignPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Sign in with Google',
+          'Sign in',
           style: TextStyle(
             color: Colors.white,
           ),
@@ -62,7 +62,7 @@ class _HomeState extends State<SignPage> {
                 width: 300,
                 fit: BoxFit.fill,
               ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 100),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: GestureDetector(
@@ -81,7 +81,7 @@ class _HomeState extends State<SignPage> {
                     width: double.infinity,
                     height: 50,
                     decoration: BoxDecoration(
-                      color: Colors.blue,
+                      color: Colors.white,
                       border: Border.all(
                         color: Colors.grey,
                       ),
@@ -99,7 +99,7 @@ class _HomeState extends State<SignPage> {
                           style: TextStyle(
                             fontSize: 17,
                             fontWeight: FontWeight.w500,
-                            color: Colors.white,
+                            color: Colors.blueAccent,
                           ),
                         ),
                       ],
